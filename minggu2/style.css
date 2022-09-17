@@ -1,0 +1,23 @@
+html {
+    margin-left: 3cm;
+    margin-right: 3cm;
+    margin-top: 3cm;
+    margin-bottom: 3cm;
+}
+
+.container-body {
+    background-color: rgb(255, 255, 255);
+}
+
+.container-foto {
+    align-items: center;
+    float: left;
+}
+
+.container-bidata {
+    align-items: center;
+}
+
+.container-tabel {
+    margin-top: 1cm ;
+}
