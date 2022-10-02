@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>form minggu 4</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div>
+        <form name="forml" method="post" action="kirim.php"></form>
+        <table class="container-form">
+        <!-- masukan nama -->
+        <tr>
+            <td>Masukan Nama</td>
+            <td><input type="text" name="fnama" required></td>
+        </tr>
+        <!-- masukan nim -->
+        <tr>
+            <td>Masukan NIM</td>
+            <td><input type="text" name="fnim" required></td>
+        </tr>
+        <!-- masukan fakultas -->
+        <tr>
+            <td>Pilih Fakultas</td>
+            <td>
+                <select name="fprodi">
+                    <option value="">Pilih Fakultas</option>
+                    <option value="FIK">(FIK) FAKULTAS ILMU KOMPUTER</option>
+                    <option value="F">Lainnya...</option>
+                </select>
+            </td>
+        </tr>
+        <!-- masukan prodi -->
+        <tr>
+            <td>Pilih Program Studi</td>
+            <td>
+                <select name="fprodi">
+                    <option value="">Pilih Prodi</option>
+                    <option value="FIK">(S1) Teknik Informatika</option>
+                    <option value="FIK">(S1) Sistem Informasi</option>
+                    <option value="FIK">(S1) Desain Komunikasi Visual</option>
+                    <option value="FIK">(S1) Ilmu Komunikasi</option>
+                    <option value="FIK">(S1) Film Dan Televisi</option>
+                    <option value="FIK">(S1)Animasi</option>
+                    <option value="FIK">(S1)Pjj Informatika</option>
+                    <option value="FIK">(D3)Teknik Informatika</option>
+                </select>
+            </td>
+        </tr>
+        <!-- masukamn tanggal lahir -->
+        <tr>
+            <td>Masukan Tanggal Lahir</td>
+            <td><input type="date" name="ftgl_lahir"></td>
+        </tr>
+        <!-- masukan bidang minat -->
+        <tr>
+            <td>Pilih Bidang Minat</td>
+            <td>
+                <input type="checkbox" name="bm1" value="1">
+                <label for="bm1">Web Developer</label><br>
+                <input type="checkbox" name="bm1" value="2">
+                <label for="bm2">Data Science</label><br>
+                <input type="checkbox" name="bm1" value="3">
+                <label for="bm3">Game Developer</label><br>
+                <input type="checkbox" name="bm1" value="4">
+                <label for="bm4">Data Science</label><br>
+                <input type="checkbox" name="bm1" value="5">
+                <label for="bm5">UI/UX Designer</label><br>
+            </td>
+           
+        </tr>
+        <!-- masukan gmail -->
+        <tr>
+            <td>Masukan Alamat Gmail</td>
+            <td><input type="text" name="fgmail" required></td>
+        </tr>
+        <!-- masukan nomor telepon -->
+        <tr>
+            <td>Masukan No.Telp</td>
+            <td><input type="text" name="fnotelp" required></td>
+        </tr>
+        <!-- kirim -->
+        <tr>
+            <td coldspan="2" align="center">
+                <input type="submit" name="fkirim" value="kirim">
+            </td>
+        </tr>
+        </div>
+
+        </table>
+    </body>
+</html>
