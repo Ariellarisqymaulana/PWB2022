@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> DOM API javascript </title>
+</head>
+<body>
+    <p class="paragraf">  Paragraf pertama </p>
+    <p class="paragraf">  Paragraf kedua </p>
+    <p class="paragraf">  Paragraf ketiga </p>
+
+    <script>
+        var paragraf=document.getElementsByClassName("paragraf");
+        console.log(paragraf);
+
+        setInterval(function()  {
+            paragraf[0].style.color = "gold";
+            paragraf[1].style.color = "silver"; 
+            paragraf[2].style.color = "blue";
+
+        setTimeout(function()  {
+            paragraf[0].style.color = "purple";
+            paragraf[1].style.color = "red"; 
+            paragraf[2].style.color = "pink";
+        }, 500);
+        }, 1000);
+    </script>
+    
+</body>
+</html>
