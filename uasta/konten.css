@@ -1,0 +1,59 @@
+* {
+margin: 0;
+padding: 0;
+width: 100%;
+}
+/* navbar */
+.navbar-brand{
+font-family: sans-serif;
+background: linear-gradient(2700deg,rgb(209, 4, 4),rgb(194, 194, 194));
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.head{
+text-align: center;
+font-size: 50px;
+font-family: 'Courier New', Courier, monospace;
+}
+
+.board{
+    background-color: rgb(156, 9, 9);
+    
+}
+.gambar1{
+    width: 4cm;
+    padding: 20px;
+    float: left;
+    
+}
+.gambar2{
+    width: 4cm;
+    padding: 20px;
+    float: right;
+}
+.artikel{
+    padding: 15px;
+    text-align: justify;
+}
+
+
+.naik{
+width: 28px;
+height: 28px;
+border-width: 1px;
+position: fixed;
+right: 10px;
+left: auto;
+bottom: 10px;
+border-style: solid;
+border-color: transparent;
+background-color: rgb(59, 0, 0);
+color: #fff;
+border-radius: 4px;
+text-decoration: none;
+font-size: 12px;
+padding: 5px;
+}
+.up a:hover{
+color: white;
+}

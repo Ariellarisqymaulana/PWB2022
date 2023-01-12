@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+/* navbar */
+.navbar-brand{
+  font-family: sans-serif;
+  background: linear-gradient(2700deg,rgb(209, 4, 4),rgb(194, 194, 194));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+/* header */
+.bg-header{
+  background: linear-gradient(270deg,rgb(178, 176, 176),rgb(186, 3, 3));
+  
+}
+.headertext{
+  height: 280px;
+  padding-block: 2cm;
+  color: white;
+}
+.jasmerah{
+  text-align: center;
+  font-size: 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.sub-jasmerah{
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+.header img{
+    width: 100%;
+}
+
+/* ini footer */
+
+/*responsive mobile*/
